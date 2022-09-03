@@ -1,0 +1,14 @@
+
+public class Ifgrammar2 {
+	public static void main(String[] args) {
+		boolean isMarried = true;
+		
+		String str;
+		
+		str = isMarried ? "결혼했다" : "결혼 안 했다";
+		
+		System.out.println(str);
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class KeyboardInput {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		
+		String str = scanner.next();
+		int i = scanner.nextInt();
+		long l = scanner.nextLong();
+		
+		System.out.println("문자입력값:"+scanner.next());
+		System.out.println("숫자입력값:"+scanner.nextInt());
+		System.out.println("숫자입력값:"+scanner.nextLong());
+		
+		
+	}
+
+}

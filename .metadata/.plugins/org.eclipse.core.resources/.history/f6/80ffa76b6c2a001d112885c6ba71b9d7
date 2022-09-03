@@ -1,0 +1,11 @@
+import java.util.Random;
+
+public class RamdomNumber {
+	public static void main(String[] args) {
+		Random random = new Random();
+		random.nextInt(bound:10);
+		
+		System.out.println(random);
+	}
+
+}
